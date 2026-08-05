@@ -1,0 +1,15 @@
+vault-init-keys*
+*.key
+*.pem
+*.crt
+!ca_cert.crt.example
+
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfvars
+
+
+.DS_Store
+.idea/
+.vscode/
